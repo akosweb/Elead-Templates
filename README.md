@@ -47,6 +47,8 @@ Run `npm start` to kick off the build process. A new browser tab will open with 
 
 Run `npm run build` to inline your CSS into your HTML along with the rest of the build process.
 
+Run `npm run images` or `gulp images` to upload your images to connected AWS S3 Bucket.
+
 Run `npm run litmus` to build as above, then submit to litmus for testing. *AWS S3 Account details required (config.json)*
 
 Run `npm run mail` to build as above, then send to specified email address for testing. *SMTP server details required (config.json)*
